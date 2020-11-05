@@ -1,0 +1,55 @@
+
+.properties-list{
+    display: flex;
+    align-items:center;
+    padding-bottom: 94px;
+    padding-top: 94px;
+    &-item {
+        margin-right: 30px;
+        &::before {
+            display: block;
+            content: '';
+            height: 120px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #F5F4FA;
+        }
+        &:nth-child(1)::before {
+            background-image: url(../images/properties/antenna.svg);
+        }
+        &:nth-child(2)::before {
+            background-image: url(../images/properties/clock.svg);
+        }
+        &:nth-child(3)::before {
+            background-image: url(../images/properties/diagram.svg);
+        }
+        &:nth-child(4)::before {
+            background-image: url(../images/properties/astronaut.svg);
+        }
+        
+
+    }
+}
+.properties-img{
+    padding-bottom: 30px;
+    margin-left: auto;
+   margin-right: auto;
+ }
+.abiliy-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-color;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.ability-info{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $accent-color;
+
+}

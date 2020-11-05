@@ -1,0 +1,29 @@
+.container{
+    width: 1200px;
+    padding: 0.15px;
+    margin: 0 auto;
+    .header &{
+        display: flex;
+        align-items:center;
+    } 
+    .development &{
+        align-items:center; 
+    }
+    .efect &{
+        display: flex;
+    }
+    .occupation &{
+        align-items:center;
+    }
+    .properties &{
+        display: flex;
+        align-items:center;
+         
+    }
+    .footer &{
+        align-items:center;   
+    }
+    .portfolio &{
+        display: flex;
+    }
+}

@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none
+}
+.address {
+    font-style: normal;
+    }
+.img{
+    display: block;
+
+    }
+body {
+        font-family: $main-font;
+        font-style: normal;
+    }
