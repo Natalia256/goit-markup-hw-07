@@ -306,7 +306,7 @@ body {
   border-color: #212121;
 }
 
-modal-form-policy:checked + .check-policy-icon {
+.modal-form-policy:checked + .check-policy-icon {
   border: 2px solid #fff;
   border-color: #2196F3;
   background-image: url(../images/modal/checkbox-a.svg);
