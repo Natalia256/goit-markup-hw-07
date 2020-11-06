@@ -13,22 +13,23 @@
             background-repeat: no-repeat;
             background-position: center;
             background-color: #F5F4FA;
-        }
-        &:nth-child(1)::before {
-            background-image: url(../images/properties/antenna.svg);
-        }
-        &:nth-child(2)::before {
-            background-image: url(../images/properties/clock.svg);
-        }
-        &:nth-child(3)::before {
-            background-image: url(../images/properties/diagram.svg);
-        }
-        &:nth-child(4)::before {
-            background-image: url(../images/properties/astronaut.svg);
-        }
-        
+        }      
 
     }
+}
+
+.icon-antenna::before {
+    background-image: url(../images/properties/antenna.svg);
+
+}
+.icon-clock::before {
+    background-image: url(../images/properties/clock.svg);
+}
+.icon-diagram::before {
+    background-image: url(../images/properties/diagram.svg);
+}
+.icon-astronaut::before {
+    background-image: url(../images/properties/astronaut.svg);
 }
 .properties-img{
     padding-bottom: 30px;

@@ -49,24 +49,12 @@ body {
   align-items: center;
 }
 
-.development .container {
-  align-items: center;
-}
-
-.efect .container {
+.effect .container {
   display: flex;
-}
-
-.occupation .container {
-  align-items: center;
 }
 
 .properties .container {
   display: flex;
-  align-items: center;
-}
-
-.footer .container {
   align-items: center;
 }
 
@@ -303,12 +291,10 @@ body {
   height: 16px;
   border-radius: 2px;
   border: 2px solid  #212121;
-  border-color: #212121;
 }
 
 .modal-form-policy:checked + .check-policy-icon {
-  border: 2px solid #fff;
-  border-color: #2196F3;
+  border: 2px solid #2196F3;
   background-image: url(../images/modal/checkbox-a.svg);
   background-size: contain;
   background-origin: border-box;
@@ -388,18 +374,18 @@ body {
   height: 5px;
   width: 100%;
   left: 0;
-  bottom: -30px;
+  bottom: -31px;
   position: absolute;
   background-color: #2196F3;
   border-radius: 4px;
 }
 
-.efect {
+.effect {
   background-color: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/efect/hero.jpg);
 }
 
-.efect-name {
+.effect-name {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -409,7 +395,7 @@ body {
   padding-top: 200px;
 }
 
-.efect-h {
+.effect-h {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -422,7 +408,7 @@ body {
   color: #FFFFFF;
 }
 
-.efect-button {
+.effect-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -460,19 +446,19 @@ body {
   background-color: #F5F4FA;
 }
 
-.properties-list-item:nth-child(1)::before {
+.icon-antenna::before {
   background-image: url(../images/properties/antenna.svg);
 }
 
-.properties-list-item:nth-child(2)::before {
+.icon-clock::before {
   background-image: url(../images/properties/clock.svg);
 }
 
-.properties-list-item:nth-child(3)::before {
+.icon-diagram::before {
   background-image: url(../images/properties/diagram.svg);
 }
 
-.properties-list-item:nth-child(4)::before {
+.icon-astronaut::before {
   background-image: url(../images/properties/astronaut.svg);
 }
 

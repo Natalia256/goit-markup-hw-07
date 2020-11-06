@@ -34,7 +34,7 @@
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: $futer-link-color;
+        color: $footer-link-color;
     }
     &-logo{
         padding-top: 60px;  
@@ -59,7 +59,7 @@
         color: rgba(255, 255, 255, 0.6);
         &-mt:hover,
         &-mt:focus{
-            color: $futer-link-color;
+            color: $footer-link-color;
         }
     }
     &-subscription{
